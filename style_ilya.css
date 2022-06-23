@@ -1,0 +1,182 @@
+body {
+	width: 1437px;
+	margin: 10px auto 10px auto;
+	font-size: 12;
+	font-family: Arial, Helvetica, sans-serif;
+	background-image: url(image_back/background.jpg);
+	color: white;
+
+}
+
+
+a:visited,
+a:link {
+	border-bottom: none;
+	text-decoration: none;
+}
+
+nav a:visited {
+	font-weight: bold;
+	color: white;
+}
+
+nav a:link {
+	font-weight: bold;
+	color: white;
+}
+
+.header__image {
+	width: 1437px;
+	background-color: black;
+	border: 1px solid orangered;
+	margin: 10px auto 0px auto;
+	padding: 3px 0px 0px 0px;
+}
+
+nav {
+
+	color: white;
+	width: 1437px;
+	background-color: black;
+	border: 1px solid orangered;
+	margin: 5px auto;
+	text-align: center;
+
+}
+
+
+nav ul li {
+	font-weight: bold;
+	list-style-type: none;
+	display: inline;
+	padding: 17px 40px 17px 40px;
+	margin: 0px;
+
+}
+
+.selected {
+	background-color: orange;
+	color: black;
+}
+
+nav ul li:hover {
+	background-color: orange;
+	color: black;
+}
+
+div#mainrow {
+	background: black;
+	border: 1px solid orangered;
+
+}
+
+div#main {
+	line-height: 1.5em;
+	width: 800px;
+	background: black;
+	border: 1px solid orangered;
+	padding: 30px;
+	text-align: center;
+}
+
+div#aside {
+	width: 500px;
+	float: right;
+	background: black;
+	border: 1px solid orangered;
+	padding: 5px 20px 20px 20px;
+
+}
+
+div#song {
+	line-height: 2em;
+	float: right;
+	clear: right;
+	width: 500px;
+	background: black;
+	border: 1px solid orangered;
+	padding: 10px 20px 250px 20px;
+	margin-top: 5px;
+	text-align: center;
+}
+
+
+input[type=text],
+input[type=password] {
+	width: 320px;
+}
+
+textarea {
+	height: 70px;
+	width: 320px;
+}
+
+#aside_h1 {
+	color: orange;
+	font-size: 18px;
+	font-weight: bolder;
+}
+
+#song_h1 {
+	color: orange;
+	font-size: 18px;
+	font-weight: bolder;
+}
+
+#div_h1 {
+	font-size: 18px;
+	font-weight: bolder;
+}
+
+.song_orange {
+	color: orange;
+}
+
+.main__header {
+	color: orange;
+	font-weight: bold;
+	font-size: 20px;
+	padding: 0px 0px 20px 0px;
+
+}
+
+#star {
+	text-align: left;
+	list-style-type: none;
+	list-style-image: url(image_ul/ul_1.png);
+}
+
+#pets {
+	text-align: left;
+	list-style-type: none;
+	list-style-image: url(image_ul/ul_2.png);
+}
+
+footer {
+	line-height: 1.5em;
+	font-size: 10px;
+	color: white;
+	width: 1437px;
+	background-color: black;
+	border: 1px solid orangered;
+	margin: 5px auto;
+	padding: 10px 0px 10px 0px;
+	text-align: center;
+}
+
+footer ul li {
+	padding: 0px 10px 0px 10px;
+	list-style-type: none;
+	text-decoration: none;
+	display: inline;
+	color: white;
+}
+
+footer a:link,
+footer a:visited {
+	color: orange;
+}
+
+footer a:hover {
+	color: orangered;
+}
